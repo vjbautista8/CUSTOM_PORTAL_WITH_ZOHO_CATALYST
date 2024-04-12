@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "targets": [
+      "crm_crud"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "react-app",
+    "plugin": "zcatalyst-cli-plugin-react"
+  }
+}

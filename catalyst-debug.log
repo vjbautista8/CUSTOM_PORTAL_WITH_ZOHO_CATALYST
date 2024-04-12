@@ -1,0 +1,1571 @@
+[debug] [2024-04-11T18:01:56.014Z] : 
+[debug] [2024-04-11T18:01:56.015Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T18:01:56.016Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-04-11T18:01:56.016Z] : CLI Version:  1.17.4
+[debug] [2024-04-11T18:01:56.016Z] : Platform:     win32
+[debug] [2024-04-11T18:01:56.017Z] : Node Version: v18.20.1
+[debug] [2024-04-11T18:01:56.018Z] : Time:         Fri Apr 12 2024 02:01:56 GMT+0800 (Singapore Standard Time)
+[debug] [2024-04-11T18:01:56.018Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T18:01:56.018Z] : 
+[debug] [2024-04-11T18:01:56.676Z] : > authorizing via signed-in user option
+[debug] [2024-04-11T18:01:56.676Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-04-11T18:01:56.691Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815 
+
+[debug] [2024-04-11T18:01:57.344Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:01:57 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=38197dc8-41b1-42e0-a259-3775fa531205;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=38197dc8-41b1-42e0-a259-3775fa531205;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T18:01:57.348Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/environment 
+
+[debug] [2024-04-11T18:01:57.900Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:01:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=58a780a4-143c-4a4a-8f12-8ab107eb6605;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=58a780a4-143c-4a4a-8f12-8ab107eb6605;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T18:01:58.089Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-11T18:01:58.616Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:01:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=4cc8b437-8a06-463a-83b5-3f82dcdfb81c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4cc8b437-8a06-463a-83b5-3f82dcdfb81c;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T18:01:58.622Z] : unknown eol undefined hence skipping check
+[info] [2024-04-11T18:02:02.036Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-04-11T18:02:02.039Z] : 
+[info] [2024-04-11T18:02:02.040Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-04-11T18:02:02.040Z] : 
+[info] [2024-04-11T18:02:03.454Z] : 
+[info] [2024-04-11T18:02:03.455Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-04-11T18:02:03.455Z] : i crm_crud: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T18:02:03.456Z] : 
+[info] [2024-04-11T18:02:03.456Z] : 
+[info] [2024-04-11T18:02:03.456Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-04-11T18:02:03.456Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2024-04-11T18:02:03.456Z] : 
+[info] [2024-04-11T18:02:08.663Z] : [react-plugin]: Compiled successfully!
+[info] [2024-04-11T18:02:08.663Z] : [react-plugin]: 
+[info] [2024-04-11T18:02:08.663Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2024-04-11T18:02:08.663Z] : [react-plugin]: 
+[info] [2024-04-11T18:02:08.664Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-04-11T18:02:08.664Z] : [react-plugin]:   On Your Network:  http://192.168.254.101:3000/app/
+[info] [2024-04-11T18:02:08.664Z] : [react-plugin]: 
+[info] [2024-04-11T18:02:08.664Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-04-11T18:02:08.665Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-04-11T18:02:08.665Z] : [react-plugin]: 
+[info] [2024-04-11T18:04:48.148Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T18:04:48.563Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T18:04:48.563Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 6:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T18:04:48.564Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T18:04:48.564Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2024-04-11T18:04:48.887Z] : > refreshing access token <
+[debug] [2024-04-11T18:04:48.892Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[info] [2024-04-11T18:04:49.031Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T18:04:49.135Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T18:04:49.135Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 6:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T18:04:49.135Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T18:04:49.136Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T18:04:49.218Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T18:04:49.306Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T18:04:49.306Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 6:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T18:04:49.306Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T18:04:49.307Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T18:04:49.365Z] : [react-plugin]: Compiling...
+[debug] [2024-04-11T18:04:49.434Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:04:49 GMT","content-type":"application/json;charset=UTF-8","content-length":"1945","connection":"close","set-cookie":["b266a5bf57=a7f15cb1555106de5ac96d088b72e7c8; Path=/","iamcsr=9442e676-205c-4834-9aa0-905329477f53;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9442e676-205c-4834-9aa0-905329477f53;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-04-11T18:04:49.502Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T18:04:49.502Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 6:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T18:04:49.502Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T18:04:49.502Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T18:04:49.523Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T18:04:49.604Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T18:04:49.605Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 6:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T18:04:49.605Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T18:04:49.606Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T18:05:00.231Z] : Shutting down server
+[info] [2024-04-11T18:05:00.337Z] : 
+[info] [2024-04-11T18:05:00.338Z] : √ Shutdown complete
+[debug] [2024-04-11T18:05:00.338Z] : NO ERRORS REGISTERED
+[debug] [2024-04-11T18:05:00.338Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-04-11T18:05:00.339Z] : TOTAL DURATION OF COMMAND EXEC : 183676
+[debug] [2024-04-11T18:05:00.351Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-04-11T18:05:01.700Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:05:01 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=9c3b4bb7-2702-4a64-89e2-787d58f18551;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9c3b4bb7-2702-4a64-89e2-787d58f18551;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=D6A0245DFB1ABD68B2000DF21BAC347D; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2024-04-11T18:05:01.701Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-04-11T18:05:01.702Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2024-04-11T18:05:03.163Z] : 
+[debug] [2024-04-11T18:05:03.164Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T18:05:03.165Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-04-11T18:05:03.165Z] : CLI Version:  1.17.4
+[debug] [2024-04-11T18:05:03.165Z] : Platform:     win32
+[debug] [2024-04-11T18:05:03.166Z] : Node Version: v18.20.1
+[debug] [2024-04-11T18:05:03.167Z] : Time:         Fri Apr 12 2024 02:05:03 GMT+0800 (Singapore Standard Time)
+[debug] [2024-04-11T18:05:03.167Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T18:05:03.167Z] : 
+[debug] [2024-04-11T18:05:03.902Z] : > authorizing via signed-in user option
+[debug] [2024-04-11T18:05:03.903Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-04-11T18:05:03.915Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815 
+
+[debug] [2024-04-11T18:05:04.563Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:05:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=f4c92536-3f9f-4bcb-b4af-7561b154e979;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f4c92536-3f9f-4bcb-b4af-7561b154e979;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T18:05:04.566Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/environment 
+
+[debug] [2024-04-11T18:05:05.080Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:05:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=ba33c493-36a4-4bcd-8c46-d5d6d679b9d4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ba33c493-36a4-4bcd-8c46-d5d6d679b9d4;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T18:05:05.259Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-11T18:05:05.779Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:05:06 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=b2f7606e-358f-4cd5-b505-57c9cb516f02;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b2f7606e-358f-4cd5-b505-57c9cb516f02;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T18:05:05.787Z] : unknown eol undefined hence skipping check
+[info] [2024-04-11T18:05:09.056Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-04-11T18:05:09.058Z] : 
+[info] [2024-04-11T18:05:09.059Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-04-11T18:05:09.059Z] : 
+[info] [2024-04-11T18:05:10.280Z] : 
+[info] [2024-04-11T18:05:10.281Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-04-11T18:05:10.281Z] : i crm_crud: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T18:05:10.281Z] : 
+[info] [2024-04-11T18:05:10.282Z] : 
+[info] [2024-04-11T18:05:10.282Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-04-11T18:05:10.282Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2024-04-11T18:05:10.283Z] : 
+[info] [2024-04-11T18:05:12.196Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T18:05:12.196Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 6:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T18:05:12.197Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T18:05:12.197Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T18:06:47.557Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T18:06:48.301Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T18:06:48.301Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 2:8:   'Button' is defined but never used                no-unused-vars
+  Line 7:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T18:06:48.301Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T18:06:48.302Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T18:06:53.897Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T18:06:54.065Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T18:06:54.066Z] : [react-plugin]: SyntaxError: C:\Users\USER\Desktop\CATALYST_VON\LeadManagerAppReactJS\react-app\src\Layout.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (39:9)
+  37 |       ) : isUserAuthenticated ? (
+  38 |         <h1>Welcome</h1>
+> 39 |          <Button title='Logout'> </Button>
+     |          ^
+  40 |       ) : (
+  41 |         <LoginPage />
+  42 |       )}
+[info] [2024-04-11T18:07:06.472Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T18:07:06.672Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T18:07:06.673Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 7:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T18:07:06.674Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T18:07:06.674Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T18:10:27.652Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T18:10:28.018Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T18:10:28.019Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 8:5:   Unexpected use of 'location'  no-restricted-globals
+  Line 10:5:  Unexpected use of 'location'  no-restricted-globals
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T18:10:53.004Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T18:10:53.215Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T18:10:53.215Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 18:7:  Unexpected use of 'location'  no-restricted-globals
+  Line 20:7:  Unexpected use of 'location'  no-restricted-globals
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T18:15:09.445Z] : Shutting down server
+[info] [2024-04-11T18:15:09.547Z] : 
+[info] [2024-04-11T18:15:09.548Z] : √ Shutdown complete
+[debug] [2024-04-11T18:15:09.548Z] : NO ERRORS REGISTERED
+[debug] [2024-04-11T18:15:09.548Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-04-11T18:15:09.548Z] : TOTAL DURATION OF COMMAND EXEC : 605664
+[debug] [2024-04-11T18:15:09.562Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-04-11T18:15:10.983Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:15:11 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=78748927-aee3-42f4-aab4-d38965a98f9e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=78748927-aee3-42f4-aab4-d38965a98f9e;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=EEC167A8FF1ADCED8232FA3B395599FE; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2024-04-11T18:15:10.984Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-04-11T18:15:10.986Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2024-04-11T18:15:12.451Z] : 
+[debug] [2024-04-11T18:15:12.452Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T18:15:12.453Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-04-11T18:15:12.453Z] : CLI Version:  1.17.4
+[debug] [2024-04-11T18:15:12.454Z] : Platform:     win32
+[debug] [2024-04-11T18:15:12.454Z] : Node Version: v18.20.1
+[debug] [2024-04-11T18:15:12.455Z] : Time:         Fri Apr 12 2024 02:15:12 GMT+0800 (Singapore Standard Time)
+[debug] [2024-04-11T18:15:12.455Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T18:15:12.455Z] : 
+[debug] [2024-04-11T18:15:13.117Z] : > authorizing via signed-in user option
+[debug] [2024-04-11T18:15:13.118Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-04-11T18:15:13.130Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815 
+
+[debug] [2024-04-11T18:15:13.758Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:15:14 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=4b880cda-617f-43bc-a018-bfbb29f4769e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4b880cda-617f-43bc-a018-bfbb29f4769e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T18:15:13.765Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/environment 
+
+[debug] [2024-04-11T18:15:14.314Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:15:14 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=4c6b8aea-0805-438f-87aa-29c19631ab7b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4c6b8aea-0805-438f-87aa-29c19631ab7b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T18:15:14.521Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-11T18:15:15.051Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:15:15 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=f84bb6f1-daab-415b-9e70-be51a78c6a71;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f84bb6f1-daab-415b-9e70-be51a78c6a71;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T18:15:15.054Z] : unknown eol undefined hence skipping check
+[info] [2024-04-11T18:15:18.336Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-04-11T18:15:18.338Z] : 
+[info] [2024-04-11T18:15:18.338Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-04-11T18:15:18.339Z] : 
+[info] [2024-04-11T18:15:19.585Z] : 
+[info] [2024-04-11T18:15:19.585Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-04-11T18:15:19.586Z] : i crm_crud: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T18:15:19.587Z] : 
+[info] [2024-04-11T18:15:19.587Z] : 
+[info] [2024-04-11T18:15:19.588Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-04-11T18:15:19.588Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2024-04-11T18:15:19.589Z] : 
+[info] [2024-04-11T18:15:20.215Z] : [react-plugin]: Compiled successfully!
+[info] [2024-04-11T18:15:20.216Z] : [react-plugin]: 
+[info] [2024-04-11T18:15:20.216Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2024-04-11T18:15:20.216Z] : [react-plugin]: 
+[info] [2024-04-11T18:15:20.217Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-04-11T18:15:20.217Z] : [react-plugin]:   On Your Network:  http://192.168.254.101:3000/app/
+[info] [2024-04-11T18:15:20.217Z] : [react-plugin]: 
+[info] [2024-04-11T18:15:20.217Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-04-11T18:15:20.217Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-04-11T18:15:20.217Z] : [react-plugin]: 
+[info] [2024-04-11T18:22:19.696Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T18:22:20.893Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T18:22:20.894Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T18:23:27.721Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T18:23:28.847Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T18:23:28.848Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T18:27:53.513Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T18:27:54.667Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T18:27:54.668Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T18:40:27.742Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T18:40:28.950Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T18:40:28.951Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T18:41:59.917Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T18:42:01.028Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T18:42:01.029Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T18:42:47.109Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T18:42:48.289Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T18:42:48.290Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T18:43:49.502Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T18:43:50.679Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T18:43:50.680Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T18:49:51.213Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T18:49:52.437Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T18:49:52.438Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T18:49:53.444Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T18:49:54.682Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T18:49:54.683Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T18:50:11.389Z] : Shutting down server
+[info] [2024-04-11T18:50:11.487Z] : 
+[info] [2024-04-11T18:50:11.488Z] : √ Shutdown complete
+[debug] [2024-04-11T18:50:11.488Z] : NO ERRORS REGISTERED
+[debug] [2024-04-11T18:50:11.489Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-04-11T18:50:11.489Z] : TOTAL DURATION OF COMMAND EXEC : 2098385
+[debug] [2024-04-11T18:50:11.505Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-04-11T18:50:12.864Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:50:13 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=812c7158-3dac-4408-b7c9-1a5c1993a585;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=812c7158-3dac-4408-b7c9-1a5c1993a585;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=CAF22F2875E8123A363D0E74884DB784; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2024-04-11T18:50:12.865Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-04-11T18:50:12.867Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2024-04-11T18:50:14.215Z] : 
+[debug] [2024-04-11T18:50:14.217Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T18:50:14.217Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-04-11T18:50:14.218Z] : CLI Version:  1.17.4
+[debug] [2024-04-11T18:50:14.218Z] : Platform:     win32
+[debug] [2024-04-11T18:50:14.218Z] : Node Version: v18.20.1
+[debug] [2024-04-11T18:50:14.219Z] : Time:         Fri Apr 12 2024 02:50:14 GMT+0800 (Singapore Standard Time)
+[debug] [2024-04-11T18:50:14.219Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T18:50:14.220Z] : 
+[debug] [2024-04-11T18:50:14.874Z] : > authorizing via signed-in user option
+[debug] [2024-04-11T18:50:14.874Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-04-11T18:50:14.889Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815 
+
+[debug] [2024-04-11T18:50:15.478Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:50:15 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=92342285-5530-4a02-9cce-17cda8d4a793;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=92342285-5530-4a02-9cce-17cda8d4a793;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T18:50:15.491Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/environment 
+
+[debug] [2024-04-11T18:50:16.027Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:50:16 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=47555e3e-b5f7-49ed-8e38-8400a8ff6de8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=47555e3e-b5f7-49ed-8e38-8400a8ff6de8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T18:50:16.243Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-11T18:50:16.760Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 18:50:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=23b518db-5367-465c-a7bc-1f571f0b9f5b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=23b518db-5367-465c-a7bc-1f571f0b9f5b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T18:50:16.763Z] : unknown eol undefined hence skipping check
+[info] [2024-04-11T18:50:20.396Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-04-11T18:50:20.399Z] : 
+[info] [2024-04-11T18:50:20.401Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-04-11T18:50:20.401Z] : 
+[info] [2024-04-11T18:50:21.769Z] : 
+[info] [2024-04-11T18:50:21.770Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-04-11T18:50:21.770Z] : i crm_crud: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T18:50:21.771Z] : 
+[info] [2024-04-11T18:50:21.771Z] : 
+[info] [2024-04-11T18:50:21.772Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-04-11T18:50:21.772Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2024-04-11T18:50:21.773Z] : 
+[info] [2024-04-11T18:50:22.279Z] : [react-plugin]: Compiled successfully!
+[info] [2024-04-11T18:50:22.280Z] : [react-plugin]: 
+[info] [2024-04-11T18:50:22.280Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2024-04-11T18:50:22.280Z] : [react-plugin]: 
+[info] [2024-04-11T18:50:22.280Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-04-11T18:50:22.281Z] : [react-plugin]:   On Your Network:  http://192.168.254.101:3000/app/
+[info] [2024-04-11T18:50:22.281Z] : [react-plugin]: 
+[info] [2024-04-11T18:50:22.281Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-04-11T18:50:22.281Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-04-11T18:50:22.281Z] : [react-plugin]: 
+[info] [2024-04-11T18:51:36.094Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T18:51:37.286Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T18:51:37.286Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T18:55:24.921Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T18:55:25.098Z] : [react-plugin]: Compiled successfully!
+[info] [2024-04-11T18:55:25.098Z] : [react-plugin]: 
+[info] [2024-04-11T18:55:25.098Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2024-04-11T18:55:25.098Z] : [react-plugin]: 
+[info] [2024-04-11T18:55:25.099Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-04-11T18:55:25.099Z] : [react-plugin]:   On Your Network:  http://192.168.254.101:3000/app/
+[info] [2024-04-11T18:55:25.099Z] : [react-plugin]: 
+[info] [2024-04-11T18:55:25.099Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-04-11T18:55:25.100Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-04-11T18:55:25.100Z] : [react-plugin]: 
+[info] [2024-04-11T18:55:54.942Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T18:55:55.059Z] : [react-plugin]: Compiled successfully!
+[info] [2024-04-11T18:55:55.059Z] : [react-plugin]: 
+[info] [2024-04-11T18:55:55.059Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2024-04-11T18:55:55.059Z] : [react-plugin]: 
+[info] [2024-04-11T18:55:55.060Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-04-11T18:55:55.060Z] : [react-plugin]:   On Your Network:  http://192.168.254.101:3000/app/
+[info] [2024-04-11T18:55:55.060Z] : [react-plugin]: 
+[info] [2024-04-11T18:55:55.060Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-04-11T18:55:55.060Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-04-11T18:55:55.061Z] : [react-plugin]: 
+[info] [2024-04-11T19:00:02.860Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:00:04.526Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:00:04.526Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 7:3:    '$' is not defined                no-undef
+  Line 8:3:    '$' is not defined                no-undef
+  Line 12:21:  'getRequiredData' is not defined  no-undef
+  Line 13:7:   '$' is not defined                no-undef
+  Line 14:7:   'renderTable' is not defined      no-undef
+  Line 17:7:   '$' is not defined                no-undef
+  Line 18:7:   '$' is not defined                no-undef
+  Line 19:7:   '$' is not defined                no-undef
+  Line 20:7:   '$' is not defined                no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:00:49.039Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:00:49.432Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:00:49.432Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 7:3:   '$' is not defined  no-undef
+  Line 8:3:   '$' is not defined  no-undef
+  Line 15:7:  '$' is not defined  no-undef
+  Line 16:7:  '$' is not defined  no-undef
+  Line 17:7:  '$' is not defined  no-undef
+  Line 18:7:  '$' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:01:08.665Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:01:08.908Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:01:08.909Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 7:3:  '$' is not defined  no-undef
+  Line 8:3:  '$' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:01:14.383Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:01:14.610Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:01:14.610Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 5:3:  '$' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:01:31.688Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:01:32.018Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:01:32.019Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 16:5:  '$' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:01:52.860Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:01:53.076Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:01:53.076Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 16:5:  '$' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:01:56.814Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:01:56.916Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:01:56.916Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 16:5:  '$' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:01:56.944Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:01:57.051Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:01:57.052Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 16:5:  '$' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:02:11.393Z] : Shutting down server
+[info] [2024-04-11T19:02:11.495Z] : 
+[info] [2024-04-11T19:02:11.496Z] : √ Shutdown complete
+[debug] [2024-04-11T19:02:11.496Z] : NO ERRORS REGISTERED
+[debug] [2024-04-11T19:02:11.497Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-04-11T19:02:11.497Z] : TOTAL DURATION OF COMMAND EXEC : 716634
+[debug] [2024-04-11T19:02:11.512Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-04-11T19:02:12.937Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:02:13 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=65c8a8be-dcea-4664-aaa8-932bac6ae70e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=65c8a8be-dcea-4664-aaa8-932bac6ae70e;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=255977F190DBF7334A40BE2637BFDF72; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2024-04-11T19:02:12.938Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-04-11T19:02:12.939Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2024-04-11T19:02:14.777Z] : 
+[debug] [2024-04-11T19:02:14.778Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T19:02:14.778Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-04-11T19:02:14.778Z] : CLI Version:  1.17.4
+[debug] [2024-04-11T19:02:14.779Z] : Platform:     win32
+[debug] [2024-04-11T19:02:14.779Z] : Node Version: v18.20.1
+[debug] [2024-04-11T19:02:14.780Z] : Time:         Fri Apr 12 2024 03:02:14 GMT+0800 (Singapore Standard Time)
+[debug] [2024-04-11T19:02:14.780Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T19:02:14.780Z] : 
+[debug] [2024-04-11T19:02:15.422Z] : > authorizing via signed-in user option
+[debug] [2024-04-11T19:02:15.423Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-04-11T19:02:15.435Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815 
+
+[debug] [2024-04-11T19:02:16.065Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:02:16 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=543f1201-42d4-4933-b4f6-6091f459f40e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=543f1201-42d4-4933-b4f6-6091f459f40e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T19:02:16.073Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/environment 
+
+[debug] [2024-04-11T19:02:16.606Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:02:16 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=a4c8ee66-93e6-4d1a-9555-761db6bf55cc;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a4c8ee66-93e6-4d1a-9555-761db6bf55cc;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T19:02:16.783Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-11T19:02:17.291Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:02:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=c43c996e-a172-4865-aaaa-371dfe86c190;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c43c996e-a172-4865-aaaa-371dfe86c190;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T19:02:17.293Z] : unknown eol undefined hence skipping check
+[info] [2024-04-11T19:02:20.500Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-04-11T19:02:20.502Z] : 
+[info] [2024-04-11T19:02:20.503Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-04-11T19:02:20.503Z] : 
+[info] [2024-04-11T19:02:21.704Z] : 
+[info] [2024-04-11T19:02:21.705Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-04-11T19:02:21.705Z] : i crm_crud: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T19:02:21.706Z] : 
+[info] [2024-04-11T19:02:21.706Z] : 
+[info] [2024-04-11T19:02:21.706Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-04-11T19:02:21.706Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2024-04-11T19:02:21.707Z] : 
+[info] [2024-04-11T19:02:25.580Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:02:25.581Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 16:5:  '$' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:05:56.948Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:05:57.805Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:05:57.806Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 16:5:  '$' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:06:10.032Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:06:10.212Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:06:10.213Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 16:5:  '$' is not defined  no-undef
+
+src\index.js
+  Line 8:20:  'store' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:06:17.947Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:06:18.137Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:06:18.137Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 16:5:  '$' is not defined  no-undef
+
+src\index.js
+  Line 8:20:  'store' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:06:18.912Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:06:19.046Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:06:19.046Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 16:5:  '$' is not defined  no-undef
+
+src\index.js
+  Line 8:20:  'store' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:06:19.063Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:06:19.172Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:06:19.172Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 16:5:  '$' is not defined  no-undef
+
+src\index.js
+  Line 8:20:  'store' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:06:56.199Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:06:56.432Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:06:56.432Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 29:9:  'getLeads' is not defined  no-undef
+
+src\index.js
+  Line 8:20:  'store' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:07:40.370Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:07:40.722Z] : Shutting down server
+[info] [2024-04-11T19:07:41.049Z] : 
+[info] [2024-04-11T19:07:41.049Z] : √ Shutdown complete
+[debug] [2024-04-11T19:07:41.050Z] : NO ERRORS REGISTERED
+[debug] [2024-04-11T19:07:41.050Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-04-11T19:07:41.050Z] : TOTAL DURATION OF COMMAND EXEC : 325641
+[debug] [2024-04-11T19:07:41.306Z] : > refreshing access token <
+[debug] [2024-04-11T19:07:41.307Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-04-11T19:07:41.843Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:07:42 GMT","content-type":"application/json;charset=UTF-8","content-length":"1945","connection":"close","set-cookie":["b266a5bf57=a711b6da0e6cbadb5e254290f114a026; Path=/","iamcsr=b48cd812-5d65-42fa-b35b-31b28b95dca5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b48cd812-5d65-42fa-b35b-31b28b95dca5;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T19:07:41.855Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-04-11T19:07:43.223Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:07:43 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=452df0a4-cb9e-449a-a013-882cfa5017df;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=452df0a4-cb9e-449a-a013-882cfa5017df;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=200EAA5D941ED21DF778FEDBA3EFEC09; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2024-04-11T19:07:43.224Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-04-11T19:07:43.225Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2024-04-11T19:07:44.408Z] : 
+[debug] [2024-04-11T19:07:44.409Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T19:07:44.409Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-04-11T19:07:44.409Z] : CLI Version:  1.17.4
+[debug] [2024-04-11T19:07:44.410Z] : Platform:     win32
+[debug] [2024-04-11T19:07:44.411Z] : Node Version: v18.20.1
+[debug] [2024-04-11T19:07:44.411Z] : Time:         Fri Apr 12 2024 03:07:44 GMT+0800 (Singapore Standard Time)
+[debug] [2024-04-11T19:07:44.412Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T19:07:44.412Z] : 
+[debug] [2024-04-11T19:07:45.085Z] : > authorizing via signed-in user option
+[debug] [2024-04-11T19:07:45.086Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-04-11T19:07:45.098Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815 
+
+[debug] [2024-04-11T19:07:45.715Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:07:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=da4a2716-73c9-4ed1-b870-d22d770395f4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=da4a2716-73c9-4ed1-b870-d22d770395f4;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T19:07:45.721Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/environment 
+
+[debug] [2024-04-11T19:07:46.246Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:07:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=a608be52-8599-4747-bc31-39727b51ed7f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a608be52-8599-4747-bc31-39727b51ed7f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T19:07:46.445Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-11T19:07:47.743Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:07:47 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=5b3c1ced-4ecd-48b1-bdd0-b49e6f8af5d6;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5b3c1ced-4ecd-48b1-bdd0-b49e6f8af5d6;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T19:07:47.751Z] : unknown eol undefined hence skipping check
+[info] [2024-04-11T19:07:51.003Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-04-11T19:07:51.005Z] : 
+[info] [2024-04-11T19:07:51.005Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-04-11T19:07:51.006Z] : 
+[info] [2024-04-11T19:07:52.245Z] : 
+[info] [2024-04-11T19:07:52.245Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-04-11T19:07:52.246Z] : i crm_crud: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T19:07:52.246Z] : 
+[info] [2024-04-11T19:07:52.246Z] : 
+[info] [2024-04-11T19:07:52.246Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-04-11T19:07:52.246Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2024-04-11T19:07:52.246Z] : 
+[info] [2024-04-11T19:07:54.181Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:07:54.181Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 29:9:  'getLeads' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:08:08.114Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:08:08.649Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:08:08.650Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 8:10:  'userDetails' is assigned a value but never used  no-unused-vars
+
+src\redux\user\userSlice.js
+  Line 1:23:   'createAsyncThunk' is defined but never used  no-unused-vars
+  Line 16:14:  Unexpected empty object pattern               no-empty-pattern
+[info] [2024-04-11T19:08:08.650Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:08:08.650Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:10:32.029Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:10:32.390Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:10:32.390Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 8:10:  'userDetails' is assigned a value but never used  no-unused-vars
+
+src\redux\user\userSlice.js
+  Line 1:23:   'createAsyncThunk' is defined but never used  no-unused-vars
+  Line 12:14:  Unexpected empty object pattern               no-empty-pattern
+[info] [2024-04-11T19:10:32.390Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:10:32.391Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:14:51.113Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:14:51.389Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:14:51.390Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 8:10:  'userDetails' is assigned a value but never used  no-unused-vars
+
+src\redux\user\userSlice.js
+  Line 1:23:   'createAsyncThunk' is defined but never used  no-unused-vars
+  Line 27:14:  Unexpected empty object pattern               no-empty-pattern
+[info] [2024-04-11T19:14:51.390Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:14:51.390Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:15:11.196Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:15:11.560Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:15:11.561Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 35:36:  'username' is not defined  no-undef
+  Line 35:46:  'password' is not defined  no-undef
+  Line 44:11:  'setError' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:16:21.426Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:16:21.702Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:16:21.702Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 43:11:  'setError' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:16:39.801Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:16:40.052Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:16:40.053Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 44:11:  'setError' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:17:02.087Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:17:02.257Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:17:02.258Z] : [react-plugin]: SyntaxError: C:\Users\USER\Desktop\CATALYST_VON\LeadManagerAppReactJS\react-app\src\Layout.js: Unexpected token (43:17)
+  41 |           // Continue with successful login logic
+  42 |           console.log('response', response);
+> 43 |         } catch () {
+     |                  ^
+  44 |           console.log('error', error);
+  45 |         }
+  46 |       })
+[info] [2024-04-11T19:17:09.324Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:17:09.557Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:17:09.557Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 8:10:  'userDetails' is assigned a value but never used  no-unused-vars
+
+src\redux\user\userSlice.js
+  Line 1:23:   'createAsyncThunk' is defined but never used  no-unused-vars
+  Line 27:14:  Unexpected empty object pattern               no-empty-pattern
+[info] [2024-04-11T19:17:09.557Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:17:09.557Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:20:07.651Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:20:07.982Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:20:07.983Z] : [react-plugin]: Module not found: Error: Can't resolve 'axios' in 'C:\Users\USER\Desktop\CATALYST_VON\LeadManagerAppReactJS\react-app\src'
+[info] [2024-04-11T19:20:21.318Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:20:21.426Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:20:21.426Z] : [react-plugin]: Module not found: Error: Can't resolve 'axios' in 'C:\Users\USER\Desktop\CATALYST_VON\LeadManagerAppReactJS\react-app\src'
+[info] [2024-04-11T19:20:21.468Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:20:22.244Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:20:22.245Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 4:8:   'axios' is defined but never used                 no-unused-vars
+  Line 8:10:  'username' is assigned a value but never used     no-unused-vars
+  Line 8:20:  'setUsername' is assigned a value but never used  no-unused-vars
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+
+src\redux\user\userSlice.js
+  Line 1:23:   'createAsyncThunk' is defined but never used  no-unused-vars
+  Line 27:14:  Unexpected empty object pattern               no-empty-pattern
+[info] [2024-04-11T19:20:22.245Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:20:22.245Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:20:22.271Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:20:22.521Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:20:22.522Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 4:8:   'axios' is defined but never used                 no-unused-vars
+  Line 8:10:  'username' is assigned a value but never used     no-unused-vars
+  Line 8:20:  'setUsername' is assigned a value but never used  no-unused-vars
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+
+src\redux\user\userSlice.js
+  Line 1:23:   'createAsyncThunk' is defined but never used  no-unused-vars
+  Line 27:14:  Unexpected empty object pattern               no-empty-pattern
+[info] [2024-04-11T19:20:22.522Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:20:22.522Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:21:21.770Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:21:22.151Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:21:22.152Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 33:13:  'setUsers' is not defined    no-undef
+  Line 34:13:  'setLoading' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:21:47.366Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:21:47.610Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:21:47.610Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 34:13:  'setLoading' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:21:55.567Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:21:55.772Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:21:55.773Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 8:10:  'username' is assigned a value but never used     no-unused-vars
+  Line 8:20:  'setUsername' is assigned a value but never used  no-unused-vars
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+
+src\redux\user\userSlice.js
+  Line 1:23:   'createAsyncThunk' is defined but never used  no-unused-vars
+  Line 27:14:  Unexpected empty object pattern               no-empty-pattern
+[info] [2024-04-11T19:21:55.773Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:21:55.773Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:24:42.435Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:24:42.717Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:24:42.717Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 8:10:  'username' is assigned a value but never used     no-unused-vars
+  Line 8:20:  'setUsername' is assigned a value but never used  no-unused-vars
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+
+src\redux\user\userSlice.js
+  Line 1:23:   'createAsyncThunk' is defined but never used  no-unused-vars
+  Line 27:14:  Unexpected empty object pattern               no-empty-pattern
+[info] [2024-04-11T19:24:42.717Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:24:42.718Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:25:20.590Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:25:20.728Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:25:20.728Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 8:10:  'username' is assigned a value but never used     no-unused-vars
+  Line 8:20:  'setUsername' is assigned a value but never used  no-unused-vars
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+
+src\redux\user\userSlice.js
+  Line 1:23:   'createAsyncThunk' is defined but never used  no-unused-vars
+  Line 27:14:  Unexpected empty object pattern               no-empty-pattern
+[info] [2024-04-11T19:25:20.729Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:25:20.729Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:25:27.978Z] : Shutting down server
+[info] [2024-04-11T19:25:28.089Z] : 
+[info] [2024-04-11T19:25:28.089Z] : √ Shutdown complete
+[debug] [2024-04-11T19:25:28.090Z] : NO ERRORS REGISTERED
+[debug] [2024-04-11T19:25:28.090Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-04-11T19:25:28.090Z] : TOTAL DURATION OF COMMAND EXEC : 1063016
+[debug] [2024-04-11T19:25:28.104Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-04-11T19:25:29.456Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:25:29 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=e125f93d-c004-4df4-be4f-94c5b687226c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e125f93d-c004-4df4-be4f-94c5b687226c;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=C90537166392C9A995A864A33602FD70; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2024-04-11T19:25:29.457Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-04-11T19:25:29.459Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2024-04-11T19:25:36.839Z] : 
+[debug] [2024-04-11T19:25:36.840Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T19:25:36.841Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-04-11T19:25:36.842Z] : CLI Version:  1.17.4
+[debug] [2024-04-11T19:25:36.842Z] : Platform:     win32
+[debug] [2024-04-11T19:25:36.842Z] : Node Version: v18.20.1
+[debug] [2024-04-11T19:25:36.843Z] : Time:         Fri Apr 12 2024 03:25:36 GMT+0800 (Singapore Standard Time)
+[debug] [2024-04-11T19:25:36.844Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T19:25:36.844Z] : 
+[debug] [2024-04-11T19:25:37.495Z] : > authorizing via signed-in user option
+[debug] [2024-04-11T19:25:37.496Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-04-11T19:25:37.508Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815 
+
+[debug] [2024-04-11T19:25:38.096Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:25:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=17f16372-d2a7-4dcd-aae4-39b27373354f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=17f16372-d2a7-4dcd-aae4-39b27373354f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T19:25:38.104Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/environment 
+
+[debug] [2024-04-11T19:25:38.622Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:25:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=7b8e4aff-b5ab-4ca9-81b0-81ea977fa88e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7b8e4aff-b5ab-4ca9-81b0-81ea977fa88e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T19:25:38.648Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-11T19:25:39.168Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:25:39 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=f310437f-4a10-402c-a159-7d67f08e6e18;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f310437f-4a10-402c-a159-7d67f08e6e18;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T19:25:39.177Z] : unknown eol undefined hence skipping check
+[debug] [2024-04-11T19:25:41.752Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/server/upsert 
+
+[debug] [2024-04-11T19:25:50.035Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:25:50 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=3f5383fe-9e8d-45cf-823b-e01d673b8f89;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3f5383fe-9e8d-45cf-823b-e01d673b8f89;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-04-11T19:25:50.178Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2024-04-11T19:25:50.178Z] : i Building Application...
+[info] [2024-04-11T19:25:51.835Z] : [react-plugin]: Creating an optimized production build...
+[info] [2024-04-11T19:26:00.974Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:26:00.974Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 8:10:  'username' is assigned a value but never used     no-unused-vars
+  Line 8:20:  'setUsername' is assigned a value but never used  no-unused-vars
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+
+src\redux\user\userSlice.js
+  Line 1:23:   'createAsyncThunk' is defined but never used  no-unused-vars
+  Line 27:14:  Unexpected empty object pattern               no-empty-pattern
+[info] [2024-04-11T19:26:00.975Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:26:00.976Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:26:00.977Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2024-04-11T19:26:00.988Z] : [react-plugin]:   72.48 kB  build\static\js\main.5bfed80a.js
+[info] [2024-04-11T19:26:00.989Z] : [react-plugin]:   609 B     build\static\css\main.e29bf34b.css
+[info] [2024-04-11T19:26:00.989Z] : [react-plugin]:  
+[debug] [2024-04-11T19:26:01.428Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/webapp 
+
+[debug] [2024-04-11T19:26:04.286Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:26:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=d70c75b5-519f-4e67-b322-c31e9dbfca25;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d70c75b5-519f-4e67-b322-c31e9dbfca25;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-04-11T19:26:04.289Z] : 
+[info] [2024-04-11T19:26:04.289Z] : i functions(crm_crud): URL => https://leadmanagerappreactjs-848504937.development.catalystserverless.com/server/crm_crud/
+[info] [2024-04-11T19:26:04.289Z] : √ functions(crm_crud): deploy successful
+[info] [2024-04-11T19:26:04.290Z] : 
+[info] [2024-04-11T19:26:04.290Z] : √ client: deploy successful
+[info] [2024-04-11T19:26:04.291Z] : i client: URL => https://leadmanagerappreactjs-848504937.development.catalystserverless.com/app/index.html
+[info] [2024-04-11T19:26:04.291Z] : 
+[info] [2024-04-11T19:26:04.292Z] : √ Catalyst deploy complete!
+[debug] [2024-04-11T19:26:04.292Z] : NO ERRORS REGISTERED
+[debug] [2024-04-11T19:26:04.292Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-04-11T19:26:04.292Z] : TOTAL DURATION OF COMMAND EXEC : 26810
+[debug] [2024-04-11T19:26:04.308Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-04-11T19:26:05.661Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:26:05 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=c9dadaa1-d054-4755-b96a-2fcd7395c5f8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c9dadaa1-d054-4755-b96a-2fcd7395c5f8;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=12F4256E6324E0B0CEDFA462F8916294; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2024-04-11T19:26:05.662Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-04-11T19:26:05.663Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2024-04-11T19:30:28.516Z] : 
+[debug] [2024-04-11T19:30:28.517Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T19:30:28.517Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-04-11T19:30:28.518Z] : CLI Version:  1.17.4
+[debug] [2024-04-11T19:30:28.518Z] : Platform:     win32
+[debug] [2024-04-11T19:30:28.519Z] : Node Version: v18.20.1
+[debug] [2024-04-11T19:30:28.519Z] : Time:         Fri Apr 12 2024 03:30:28 GMT+0800 (Singapore Standard Time)
+[debug] [2024-04-11T19:30:28.520Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T19:30:28.520Z] : 
+[debug] [2024-04-11T19:30:29.188Z] : > authorizing via signed-in user option
+[debug] [2024-04-11T19:30:29.189Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-04-11T19:30:29.201Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815 
+
+[debug] [2024-04-11T19:30:29.865Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:30:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=96ad96e7-61b5-4e00-b105-d93c11051346;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=96ad96e7-61b5-4e00-b105-d93c11051346;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T19:30:29.873Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/environment 
+
+[debug] [2024-04-11T19:30:30.382Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:30:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=4404c034-dab9-48a1-9d21-f89e8befc772;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4404c034-dab9-48a1-9d21-f89e8befc772;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T19:30:30.574Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-11T19:30:31.089Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 19:30:31 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=0818721b-3242-4534-b856-b741f739b1f0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0818721b-3242-4534-b856-b741f739b1f0;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T19:30:31.097Z] : unknown eol undefined hence skipping check
+[info] [2024-04-11T19:30:34.433Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-04-11T19:30:34.435Z] : 
+[info] [2024-04-11T19:30:34.437Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-04-11T19:30:34.438Z] : 
+[info] [2024-04-11T19:30:35.644Z] : 
+[info] [2024-04-11T19:30:35.644Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-04-11T19:30:35.645Z] : i crm_crud: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T19:30:35.645Z] : 
+[info] [2024-04-11T19:30:35.645Z] : 
+[info] [2024-04-11T19:30:35.645Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-04-11T19:30:35.645Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2024-04-11T19:30:35.645Z] : 
+[info] [2024-04-11T19:30:39.527Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:30:39.527Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 8:10:  'username' is assigned a value but never used     no-unused-vars
+  Line 8:20:  'setUsername' is assigned a value but never used  no-unused-vars
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:30:39.528Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:30:39.528Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:33:06.324Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T19:33:07.503Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T19:33:07.503Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T19:34:41.878Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T19:34:42.994Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T19:34:42.996Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T19:36:23.106Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T19:36:24.210Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T19:36:24.210Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T19:37:05.542Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T19:37:06.571Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T19:37:06.572Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T19:38:35.773Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:38:36.438Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:38:36.439Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 8:10:  'crmContactData' is assigned a value but never used     no-unused-vars
+  Line 8:26:  'setCrmContactData' is assigned a value but never used  no-unused-vars
+  Line 9:10:  'userDetails' is assigned a value but never used        no-unused-vars
+[info] [2024-04-11T19:38:36.439Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:38:36.439Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:39:25.174Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:39:25.446Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:39:25.447Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 8:10:  'crmContactData' is assigned a value but never used  no-unused-vars
+  Line 9:10:  'userDetails' is assigned a value but never used     no-unused-vars
+[info] [2024-04-11T19:39:25.447Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:39:25.447Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:40:48.805Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:40:49.214Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:40:49.215Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:40:49.215Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:40:49.215Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:41:34.059Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:41:34.316Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:41:34.316Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:41:34.317Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:41:34.317Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:43:10.367Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:43:10.720Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:43:10.721Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 8:26:  'setCrmContactData' is assigned a value but never used  no-unused-vars
+  Line 9:10:  'userDetails' is assigned a value but never used        no-unused-vars
+[info] [2024-04-11T19:43:10.721Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:43:10.721Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:43:19.444Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:43:19.650Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:43:19.650Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 8:10:  'crmContactData' is assigned a value but never used     no-unused-vars
+  Line 8:26:  'setCrmContactData' is assigned a value but never used  no-unused-vars
+  Line 9:10:  'userDetails' is assigned a value but never used        no-unused-vars
+[info] [2024-04-11T19:43:19.651Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:43:19.651Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:43:52.892Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:43:53.150Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:43:53.151Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 8:10:  'crmContactData' is assigned a value but never used  no-unused-vars
+  Line 9:10:  'userDetails' is assigned a value but never used     no-unused-vars
+[info] [2024-04-11T19:43:53.151Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:43:53.151Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:44:38.563Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:44:38.801Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:44:38.802Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:44:38.802Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:44:38.802Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:44:52.738Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:44:52.945Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:44:52.945Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:44:52.945Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:44:52.946Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:45:25.213Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:45:25.405Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:45:25.405Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 53:42:  'crmContactDat' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:45:29.916Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:45:30.127Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:45:30.127Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:45:30.128Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:45:30.128Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:45:51.606Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:45:51.745Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:45:51.745Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:45:51.745Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:45:51.746Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:46:02.102Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:46:02.303Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:46:02.303Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:46:02.304Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:46:02.304Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:46:16.703Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:46:16.892Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:46:16.892Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:46:16.893Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:46:16.893Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:46:28.998Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:46:29.186Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:46:29.186Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:46:29.186Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:46:29.187Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:48:01.673Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:48:01.937Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:48:01.938Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:48:01.938Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:48:01.939Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:48:17.335Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:48:17.632Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:48:17.633Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:48:17.633Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:48:17.633Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:48:25.855Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:48:26.052Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:48:26.052Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:48:26.052Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:48:26.052Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:49:00.498Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:49:00.706Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:49:00.706Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:49:00.706Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:49:00.707Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:49:03.907Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:49:04.018Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:49:04.018Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:49:04.019Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:49:04.019Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:50:24.961Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:50:25.207Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-11T19:50:25.207Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 31:58:  'mailid' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-11T19:50:38.637Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:50:38.847Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:50:38.847Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:50:38.847Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:50:38.848Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:51:56.330Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:51:56.576Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:51:56.576Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:51:56.576Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:51:56.577Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:53:12.349Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:53:12.588Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:53:12.588Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:53:12.588Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:53:12.588Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:53:34.049Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:53:34.280Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:53:34.281Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:53:34.281Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:53:34.281Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:54:45.724Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:54:45.996Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:54:45.996Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:54:45.997Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:54:45.997Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T19:56:36.784Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T19:56:37.039Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T19:56:37.039Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T19:56:37.039Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T19:56:37.040Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T20:02:27.761Z] : [react-plugin]: Compiling...
+[info] [2024-04-11T20:02:28.056Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T20:02:28.057Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T20:02:28.057Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T20:02:28.057Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T20:03:54.043Z] : Shutting down server
+[info] [2024-04-11T20:03:54.214Z] : 
+[info] [2024-04-11T20:03:54.214Z] : √ Shutdown complete
+[debug] [2024-04-11T20:03:54.215Z] : NO ERRORS REGISTERED
+[debug] [2024-04-11T20:03:54.215Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-04-11T20:03:54.215Z] : TOTAL DURATION OF COMMAND EXEC : 2005039
+[debug] [2024-04-11T20:03:54.235Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-04-11T20:03:55.597Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:03:55 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=7fbd66fc-adc9-4e3d-836d-e290739fac7c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7fbd66fc-adc9-4e3d-836d-e290739fac7c;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=FB5CA076B49DB241CCA93669EC61902E; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2024-04-11T20:03:55.599Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-04-11T20:03:55.601Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2024-04-11T20:04:00.997Z] : 
+[debug] [2024-04-11T20:04:00.998Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T20:04:00.999Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-04-11T20:04:00.999Z] : CLI Version:  1.17.4
+[debug] [2024-04-11T20:04:01.000Z] : Platform:     win32
+[debug] [2024-04-11T20:04:01.000Z] : Node Version: v18.20.1
+[debug] [2024-04-11T20:04:01.001Z] : Time:         Fri Apr 12 2024 04:04:01 GMT+0800 (Singapore Standard Time)
+[debug] [2024-04-11T20:04:01.001Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T20:04:01.002Z] : 
+[debug] [2024-04-11T20:04:01.679Z] : > authorizing via signed-in user option
+[debug] [2024-04-11T20:04:01.680Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-04-11T20:04:01.693Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815 
+
+[debug] [2024-04-11T20:04:02.297Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:04:02 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=649710dc-a9d3-40ac-ab4a-cda3d0cdfb40;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=649710dc-a9d3-40ac-ab4a-cda3d0cdfb40;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T20:04:02.306Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/environment 
+
+[debug] [2024-04-11T20:04:02.851Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:04:03 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=04e293ae-aa2d-447d-86e2-4b2a92423e09;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=04e293ae-aa2d-447d-86e2-4b2a92423e09;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T20:04:02.868Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-11T20:04:03.393Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:04:03 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=8a2ed8b7-519c-4565-9d39-cd17821c6fa3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=8a2ed8b7-519c-4565-9d39-cd17821c6fa3;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T20:04:03.401Z] : unknown eol undefined hence skipping check
+[debug] [2024-04-11T20:04:06.464Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/server/upsert 
+
+[debug] [2024-04-11T20:04:13.704Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:04:14 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=785a7e47-7dd8-463a-9571-143eb0aadb5f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=785a7e47-7dd8-463a-9571-143eb0aadb5f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-04-11T20:04:13.854Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2024-04-11T20:04:13.854Z] : i Building Application...
+[info] [2024-04-11T20:04:15.841Z] : [react-plugin]: Creating an optimized production build...
+[info] [2024-04-11T20:04:22.194Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-11T20:04:22.195Z] : [react-plugin]: [eslint] 
+src\Layout.js
+  Line 9:10:  'userDetails' is assigned a value but never used  no-unused-vars
+[info] [2024-04-11T20:04:22.195Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-11T20:04:22.196Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-11T20:04:22.196Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2024-04-11T20:04:22.210Z] : [react-plugin]:   72.56 kB (+80 B)  build\static\js\main.35a3c132.js
+[info] [2024-04-11T20:04:22.210Z] : [react-plugin]:   609 B             build\static\css\main.e29bf34b.css
+[info] [2024-04-11T20:04:22.211Z] : [react-plugin]:  
+[debug] [2024-04-11T20:04:22.633Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/webapp 
+
+[debug] [2024-04-11T20:04:25.907Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:04:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=57c08533-198b-417c-9cfa-cd58a60583a0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=57c08533-198b-417c-9cfa-cd58a60583a0;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-04-11T20:04:25.909Z] : 
+[info] [2024-04-11T20:04:25.910Z] : i functions(crm_crud): URL => https://leadmanagerappreactjs-848504937.development.catalystserverless.com/server/crm_crud/
+[info] [2024-04-11T20:04:25.910Z] : √ functions(crm_crud): deploy successful
+[info] [2024-04-11T20:04:25.911Z] : 
+[info] [2024-04-11T20:04:25.912Z] : √ client: deploy successful
+[info] [2024-04-11T20:04:25.913Z] : i client: URL => https://leadmanagerappreactjs-848504937.development.catalystserverless.com/app/index.html
+[info] [2024-04-11T20:04:25.913Z] : 
+[info] [2024-04-11T20:04:25.914Z] : √ Catalyst deploy complete!
+[debug] [2024-04-11T20:04:25.915Z] : NO ERRORS REGISTERED
+[debug] [2024-04-11T20:04:25.915Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-04-11T20:04:25.916Z] : TOTAL DURATION OF COMMAND EXEC : 24246
+[debug] [2024-04-11T20:04:25.956Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-04-11T20:04:27.324Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:04:27 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=e1ee7b0c-374f-4290-9b06-b298a0b27f7b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e1ee7b0c-374f-4290-9b06-b298a0b27f7b;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=B3090BB43CF3C6725CE1620DC2CF573B; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2024-04-11T20:04:27.324Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-04-11T20:04:27.325Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2024-04-11T20:12:30.238Z] : 
+[debug] [2024-04-11T20:12:30.239Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T20:12:30.239Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-04-11T20:12:30.240Z] : CLI Version:  1.17.4
+[debug] [2024-04-11T20:12:30.240Z] : Platform:     win32
+[debug] [2024-04-11T20:12:30.241Z] : Node Version: v18.20.1
+[debug] [2024-04-11T20:12:30.241Z] : Time:         Fri Apr 12 2024 04:12:30 GMT+0800 (Singapore Standard Time)
+[debug] [2024-04-11T20:12:30.242Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T20:12:30.242Z] : 
+[debug] [2024-04-11T20:12:30.890Z] : > authorizing via signed-in user option
+[debug] [2024-04-11T20:12:30.890Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-04-11T20:12:30.903Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815 
+
+[debug] [2024-04-11T20:12:31.558Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:12:31 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=ff00c90c-1f01-4eb1-8a31-b634a49c5888;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ff00c90c-1f01-4eb1-8a31-b634a49c5888;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T20:12:31.571Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/environment 
+
+[debug] [2024-04-11T20:12:32.089Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:12:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=e2117aa0-58fb-482b-908a-714bccd8bea8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e2117aa0-58fb-482b-908a-714bccd8bea8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T20:12:32.273Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-11T20:12:32.779Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:12:33 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=0c0ecb02-2d0c-423e-9251-301cc9dd2b10;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0c0ecb02-2d0c-423e-9251-301cc9dd2b10;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T20:12:32.783Z] : unknown eol undefined hence skipping check
+[info] [2024-04-11T20:12:36.110Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-04-11T20:12:36.112Z] : 
+[info] [2024-04-11T20:12:36.113Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-04-11T20:12:36.114Z] : 
+[info] [2024-04-11T20:12:37.390Z] : 
+[info] [2024-04-11T20:12:37.390Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-04-11T20:12:37.392Z] : i crm_crud: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T20:12:37.393Z] : 
+[info] [2024-04-11T20:12:37.393Z] : 
+[info] [2024-04-11T20:12:37.393Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-04-11T20:12:37.394Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2024-04-11T20:12:37.394Z] : 
+[info] [2024-04-11T20:12:38.097Z] : [react-plugin]: Compiled successfully!
+[info] [2024-04-11T20:12:38.097Z] : [react-plugin]: 
+[info] [2024-04-11T20:12:38.097Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2024-04-11T20:12:38.097Z] : [react-plugin]: 
+[info] [2024-04-11T20:12:38.098Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-04-11T20:12:38.098Z] : [react-plugin]:   On Your Network:  http://192.168.254.101:3000/app/
+[info] [2024-04-11T20:12:38.098Z] : [react-plugin]: 
+[info] [2024-04-11T20:12:38.098Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-04-11T20:12:38.098Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-04-11T20:12:38.098Z] : [react-plugin]: 
+[info] [2024-04-11T20:17:05.814Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T20:17:07.103Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T20:17:07.104Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T20:17:08.112Z] : 
+change of index.js in crm_crud detected. Preparing your function, please wait...
+[info] [2024-04-11T20:17:09.444Z] : i AdvancedIO[crm_crud]: ready!
+[info] [2024-04-11T20:17:09.445Z] : i AdvancedIO[crm_crud]: http://localhost:3000/server/crm_crud/
+[info] [2024-04-11T20:18:52.277Z] : Shutting down server
+[info] [2024-04-11T20:18:52.361Z] : 
+[info] [2024-04-11T20:18:52.362Z] : √ Shutdown complete
+[debug] [2024-04-11T20:18:52.362Z] : NO ERRORS REGISTERED
+[debug] [2024-04-11T20:18:52.362Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-04-11T20:18:52.362Z] : TOTAL DURATION OF COMMAND EXEC : 381488
+[debug] [2024-04-11T20:18:52.380Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-04-11T20:18:53.753Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:18:54 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=710a4754-839e-4b2f-a8e0-a6594b7832b4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=710a4754-839e-4b2f-a8e0-a6594b7832b4;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=E6001D3076BBCA94B556B0EF960BED2C; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2024-04-11T20:18:53.754Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-04-11T20:18:53.755Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2024-04-11T20:19:01.242Z] : 
+[debug] [2024-04-11T20:19:01.243Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T20:19:01.244Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-04-11T20:19:01.244Z] : CLI Version:  1.17.4
+[debug] [2024-04-11T20:19:01.244Z] : Platform:     win32
+[debug] [2024-04-11T20:19:01.245Z] : Node Version: v18.20.1
+[debug] [2024-04-11T20:19:01.246Z] : Time:         Fri Apr 12 2024 04:19:01 GMT+0800 (Singapore Standard Time)
+[debug] [2024-04-11T20:19:01.246Z] : ----------------------------------------------------------------------
+[debug] [2024-04-11T20:19:01.246Z] : 
+[debug] [2024-04-11T20:19:01.923Z] : > authorizing via signed-in user option
+[debug] [2024-04-11T20:19:01.923Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-04-11T20:19:01.937Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815 
+
+[debug] [2024-04-11T20:19:02.522Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:19:02 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=24d723cc-59c2-4a40-b7e1-ba9d32fb43a8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=24d723cc-59c2-4a40-b7e1-ba9d32fb43a8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T20:19:02.529Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/environment 
+
+[debug] [2024-04-11T20:19:03.039Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:19:03 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=c14be05f-a32c-472d-b899-4e921b0a2e0e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c14be05f-a32c-472d-b899-4e921b0a2e0e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T20:19:03.070Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-11T20:19:03.616Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:19:03 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=cae8b83c-7330-4b59-9125-3ac2ee32cd4a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=cae8b83c-7330-4b59-9125-3ac2ee32cd4a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-11T20:19:03.618Z] : unknown eol undefined hence skipping check
+[debug] [2024-04-11T20:19:06.617Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/server/upsert 
+
+[debug] [2024-04-11T20:19:13.996Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:19:14 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=503b3c2c-3673-4d89-b785-f4c107191c4d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=503b3c2c-3673-4d89-b785-f4c107191c4d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-04-11T20:19:14.115Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2024-04-11T20:19:14.115Z] : i Building Application...
+[info] [2024-04-11T20:19:15.877Z] : [react-plugin]: Creating an optimized production build...
+[info] [2024-04-11T20:19:17.243Z] : [react-plugin]: Compiled successfully.
+
+[info] [2024-04-11T20:19:17.243Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2024-04-11T20:19:17.256Z] : [react-plugin]:   72.56 kB  build\static\js\main.35a3c132.js
+[info] [2024-04-11T20:19:17.256Z] : [react-plugin]:   609 B     build\static\css\main.e29bf34b.css
+[info] [2024-04-11T20:19:17.256Z] : [react-plugin]:  
+[debug] [2024-04-11T20:19:17.654Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/19846000000018815/webapp 
+
+[debug] [2024-04-11T20:19:20.352Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:19:20 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=42746371-3393-4478-b2b3-f60da606b53a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=42746371-3393-4478-b2b3-f60da606b53a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-04-11T20:19:20.353Z] : 
+[info] [2024-04-11T20:19:20.354Z] : i functions(crm_crud): URL => https://leadmanagerappreactjs-848504937.development.catalystserverless.com/server/crm_crud/
+[info] [2024-04-11T20:19:20.354Z] : √ functions(crm_crud): deploy successful
+[info] [2024-04-11T20:19:20.355Z] : 
+[info] [2024-04-11T20:19:20.356Z] : √ client: deploy successful
+[info] [2024-04-11T20:19:20.357Z] : i client: URL => https://leadmanagerappreactjs-848504937.development.catalystserverless.com/app/index.html
+[info] [2024-04-11T20:19:20.358Z] : 
+[info] [2024-04-11T20:19:20.359Z] : √ Catalyst deploy complete!
+[debug] [2024-04-11T20:19:20.360Z] : NO ERRORS REGISTERED
+[debug] [2024-04-11T20:19:20.360Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-04-11T20:19:20.360Z] : TOTAL DURATION OF COMMAND EXEC : 18450
+[debug] [2024-04-11T20:19:20.371Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-04-11T20:19:21.721Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Thu, 11 Apr 2024 20:19:22 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=40befd78-8ce9-47a3-899b-332afeeb85f5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=40befd78-8ce9-47a3-899b-332afeeb85f5;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=F55F0240B14B608AD107F4D1BD635BF7; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2024-04-11T20:19:21.722Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-04-11T20:19:21.726Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range

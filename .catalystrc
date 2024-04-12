@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "19846000000018815",
+      "name": "LeadManagerAppReactJS",
+      "domain": {
+        "id": "10079313255",
+        "name": "leadmanagerappreactjs-848504937.development"
+      },
+      "timezone": "Asia/Manila",
+      "env": [
+        {
+          "idx": 1,
+          "id": "848504937",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
